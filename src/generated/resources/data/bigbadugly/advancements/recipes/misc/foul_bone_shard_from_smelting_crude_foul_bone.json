@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crude_foul_bone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bigbadugly:crude_foul_bone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bigbadugly:foul_bone_shard_from_smelting_crude_foul_bone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_crude_foul_bone",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bigbadugly:foul_bone_shard_from_smelting_crude_foul_bone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

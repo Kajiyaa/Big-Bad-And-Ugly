@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "bigbadugly:item/ogre_basher_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "bigbadugly:item/ogre_basher_2d"
+    },
+    "ground": {
+      "parent": "bigbadugly:item/ogre_basher_3d"
+    },
+    "fixed": {
+      "parent": "bigbadugly:item/ogre_basher_2d"
+    }
+  }
+}
