@@ -2,7 +2,9 @@ package net.apollo.bigbadugly.item;
 
 import net.apollo.bigbadugly.BigBadUgly;
 import net.apollo.bigbadugly.item.custom.FuelItem;
-import net.minecraft.world.item.Item;
+import net.apollo.bigbadugly.item.custom.ModArmorItem;
+import net.apollo.bigbadugly.item.custom.ModToolTiers;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,8 +25,19 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.OGREBERRY)));
     public static final RegistryObject<Item> DRIED_OGREBERRY = ITEMS.register("dried_ogreberry",
             () -> new FuelItem(new Item.Properties(), 400));
+
     public static final RegistryObject<Item> OGRE_BASHER = ITEMS.register("ogre_basher",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new SwordItem(ModToolTiers.OGRE, 10, -3.5f, new Item.Properties()));
+    public static final RegistryObject<Item> FOUL_BONE_SWORD = ITEMS.register("foul_bone_sword",
+            () -> new SwordItem(ModToolTiers.OGRE, 4, -2.5f, new Item.Properties()));
+   public static final RegistryObject<Item> FOUL_BONE_PICKAXE = ITEMS.register("foul_bone_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.OGRE, -2, -3f, new Item.Properties()));
+   public static final RegistryObject<Item> FOUL_BONE_AXE = ITEMS.register("foul_bone_axe",
+            () -> new AxeItem(ModToolTiers.OGRE, 5, -3f, new Item.Properties()));
+   public static final RegistryObject<Item> FOUL_BONE_SHOVEL = ITEMS.register("foul_bone_shovel",
+            () -> new ShovelItem(ModToolTiers.OGRE, -2, -3, new Item.Properties()));
+   public static final RegistryObject<Item> OGRE_BONE_PLATE = ITEMS.register("ogre_bone_plate",
+            () -> new ModArmorItem(ModArmorMaterials.OGRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

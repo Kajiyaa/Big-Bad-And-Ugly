@@ -24,6 +24,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FOUL_BONE.get());
 
                         pOutput.accept(ModItems.OGRE_BASHER.get());
+                        pOutput.accept(ModItems.FOUL_BONE_PICKAXE.get());
+                        pOutput.accept(ModItems.FOUL_BONE_AXE.get());
+                        pOutput.accept(ModItems.FOUL_BONE_SHOVEL.get());
+                        pOutput.accept(ModItems.FOUL_BONE_SWORD.get());
+
+                        pOutput.accept(ModItems.OGRE_BONE_PLATE.get());
 
                         pOutput.accept(ModItems.OGREBERRY.get());
                         pOutput.accept(ModItems.DRIED_OGREBERRY.get());

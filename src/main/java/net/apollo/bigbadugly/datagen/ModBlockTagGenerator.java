@@ -32,6 +32,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
 
+        this.tag(ModTags.Blocks.NEEDS_OGRE_TOOL);
+
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.BONE_LODGED_STONE.get(),
                         ModBlocks.BONE_LODGED_DIRT.get()

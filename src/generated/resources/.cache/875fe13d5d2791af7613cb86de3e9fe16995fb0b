@@ -1,5 +1,6 @@
-// 1.20.1	2024-02-11T10:03:34.451968	Tags for minecraft:block mod id bigbadugly
+// 1.20.1	2024-02-12T09:10:01.8573996	Tags for minecraft:block mod id bigbadugly
 1eb79a0a7df986b9af352c3a3266bbe6353d1a9b data/bigbadugly/tags/blocks/is_a_block.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/bigbadugly/tags/blocks/needs_ogre_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 1eb79a0a7df986b9af352c3a3266bbe6353d1a9b data/minecraft/tags/blocks/mineable/pickaxe.json
 24497055d84ad5039bd17bf82579ee350083ddb9 data/minecraft/tags/blocks/mineable/shovel.json

@@ -12,6 +12,7 @@ public class ModTags {
     public static class Blocks {
 
         public static final TagKey<Block> IS_A_BLOCK = tag("is_a_block");
+        public static final TagKey<Block> NEEDS_OGRE_TOOL = tag("needs_ogre_tool");
 
 
         private static TagKey<Block> tag(String name){
